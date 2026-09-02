@@ -1,18 +1,8 @@
-# Dnacenta Tap
+# dnacenta/homebrew-tap
 
-## How do I install these formulae?
+Personal Homebrew tap.
 
-`brew install dnacenta/tap/<formula>`
+    brew install dnacenta/tap/pulse-limits && pulse-limits install
 
-Or `brew tap dnacenta/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "dnacenta/tap"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- **pulse-limits**: Claude plan limits in the macOS menu bar, as a retro
+  patient monitor. A SwiftBar plugin. https://github.com/dnacenta/pulse-limits
